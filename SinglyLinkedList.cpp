@@ -114,9 +114,14 @@ int main()
 node* head = NULL;
 head=insertNode(head,5,1);
 head=insertNode(head,10,2);
+head=insertNode(head,15,3);
+head=insertNode(head,20,4);
+
+traverse(head);
+cout<<endl;
 
 head = deleteNode(head,1);
-head = deleteNode(head,1);
+head = deleteNode(head,2);
 
 
 traverse(head);
